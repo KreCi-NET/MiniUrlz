@@ -53,7 +53,7 @@ It will be replaced with system messages (created urls or errors).
 How to remove footer links from MiniUrlz main page:
 
 As stated in the license paragraph you can not remove or hide footer links without author permission. You can get author (mine) permission to 
-remove it for 10 EURO per domain. If you are interested please contact me (http://blog.kreci.net/contact-me/ - provide your domain name). You will 
+remove it for 10 EURO per domain. If you are interested please contact me (https://www.kreci.net/contact-me/ - provide your domain name). You will 
 receive new license file that should be uploaded to your installation. It will display your domain name instead of my footer.
 
 
