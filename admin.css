@@ -1,0 +1,153 @@
+body { 
+	font-size: 10px;
+	font-family:verdana;
+	background-color:#b5caf1;
+}
+
+h2 {
+        font-weight: bold;
+        font-size: 15px;
+}
+
+img {
+	border: 0;
+}
+table { 
+	font-size:8pt;
+	font-family:verdana;
+	background-color:#ffd953;
+}
+
+A{ text-decoration:none
+}
+
+.tablea{ 
+	font-size:8pt;
+	font-family:verdana;
+	background-color:#ffd953;
+}
+
+.head{
+	background-color:black;
+	text-align: left;
+	text-color: white;
+	color: #FFFFFF;
+}
+
+.login{
+	margin:70px 70px;
+}
+
+.maintable{ 
+	font-size:8pt;
+	font-family:verdana;
+	background-color:#b5caf1;
+}
+
+.submit input{
+	font-size:8pt;
+	border : 1px solid #90A3A9;
+	background-color:#f3f3f3;
+}
+
+.submit2 input{
+	font-size:9pt;
+	border : 1px solid #90A3A9;
+	width:230px;
+	height:30px;
+	background-color:#f3f3f3;
+}
+
+.text input{
+	font-size:9pt;
+	border : 1px solid #90A3A9;
+	width:100px;
+	height:20px;
+	background-color:#f3f3f3;
+	text-align: center;
+}
+
+.text2 input{
+	font-size:9pt;
+	border : 1px solid #90A3A9;
+	width:150px;
+	height:20px;
+	background-color:#f3f3f3;
+
+}
+
+.text3 input{
+	font-size:9pt;
+	border : 1px solid #90A3A9;
+	width:600px;
+	height:20px;
+	background-color:#f3f3f3;
+	text-align: center;
+
+}
+		
+.ok {
+        font-weight: bold;
+        color: green;
+}
+
+.warn {
+        font-weight: bold;
+        color: red;
+}
+
+ul#navlist {
+        margin-left: 0;
+        padding-left: 0;
+        white-space: nowrap;
+}
+
+#navlist li {
+        display: inline;
+        list-style-type: none;
+}
+
+#navlist a { padding: 3px 10px; }
+
+#navlist a:link, #navlist a:visited {
+        color: #fff;
+        background-color: #000;
+        text-decoration: none;
+}
+
+#navlist a:hover {
+        color: #fff;
+        background-color: #6B96E7;
+        text-decoration: none;
+}
+
+#feedlist {
+        padding: 1px;
+        margin-left: 0;
+        background-color: #FFD953;
+        width: 240px;
+}
+
+#feedlist li {
+        list-style: none;
+        margin: 0;
+        padding: 1px;
+}
+
+#feedlist li a { 
+        text-decoration: none;
+        display: block;
+        background-color: #FFFFA4;
+        padding: 2px;
+}
+
+#feedcontainer li a:hover
+{
+        background-color: #6B96E7;
+        color: #fff;
+}
+
+#head a:link, #head a:visited {
+        background-color: #000;
+        color: #FFF;
+}

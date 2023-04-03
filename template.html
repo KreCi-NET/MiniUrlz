@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>MiniUrlz Sample Template</title>
+    <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
+  </head>
+
+<body>
+  <div id="main">
+    <img src="MiniUrlz.png" alt="MiniUrlz" />
+    <form method="post" id="form" action="./">
+      <div>
+        To make a shortcut put your long url here (with http://):<br />
+        <input type="text" name="url" id="url" class="input" /><br />
+        Optional custom tag - leave empty for random:<br />
+        (for url like http://redirectordomain.com/tag - only letters!)<br />
+        <input type="text" name="tag" id="tag" class="input" maxlength="10" /><br />
+        Then click this<br />
+        <input type="submit" value="Create Link!" name="submit" id="submit" class="button" />
+      </div>
+    </form>
+
+    <div class="status_info">{status_info}</div>
+
+  </div>
+
+</body>
+</html>

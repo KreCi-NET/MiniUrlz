@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^([a-zA-Z0-9]+)[/]?$ go.php?id=$1
+</IfModule>
