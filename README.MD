@@ -1,8 +1,7 @@
 # MiniUrlz
-------------------------------------------------------
 Version: 1.5 (2009/12/23)
 
-http://blog.kreci.net/code/url-shortening-script/
+https://www.kreci.net/code/url-shortening-script/
 
 Do not remove footer links!
 For details please read the license paragraph.
