@@ -71,8 +71,8 @@ function getData($file) {
 /////////////////////
 
 function checkurl($linkurl) {
-  $urlregex = "^(https?)\:\/\/([a-z0-9+!*(),;?&=\$_.-]+(\:[a-z0-9+!*(),;?&=\$_.-]+)?@)?[a-z0-9+\$_-]+(\.[a-z0-9+\$_-]+)*(\:[0-9]{2,5})?(\/([a-z0-9+\$_-]\.?)+)*\/?(\?[a-z+&\$_.-][a-z0-9;:@/&%=+\$_.-]*)?(#[a-z_.-][a-z0-9+\$_.-]*)?\$";
-  $return = eregi($urlregex, $linkurl);
+  $urlregex = '/^(https?):\/\/[^\s\/$.?#].[^\s]*$/i';
+  $return = preg_match($urlregex, $linkurl);
   return $return;
 }
 
