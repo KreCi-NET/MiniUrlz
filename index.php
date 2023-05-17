@@ -23,7 +23,7 @@ if (isset($_POST['submit'])){
 
 if (!isset($sysinfo))$sysinfo='';
 
-$tp=&new templateParser('template.html');
+$tp=new templateParser('template.html');
 
 // You may add your tags to this array
 $tags=array('status_info'=>$sysinfo);
