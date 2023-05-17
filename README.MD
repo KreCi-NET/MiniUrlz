@@ -27,12 +27,12 @@ work. Submitted urls can be easily managed through integrated administrator pane
 
 ### Demo
 
-You may see how the script is working on [MiniUrlz Demo Page](https://dev.kreci.net/url/).
+You may see the script in action at [MiniUrlz Demo Page](https://dev.kreci.net/url/).
 
 ### Installation:
 
    1. Upload all files to your server
-   2. CHMOD following files and folders to be writable & readable by PHP (if unsure set 777):
+   2. CHMOD/CHOWN following files and folders to be writable & readable by PHP:
       - "store" folder with all files in it (store/*)
       - ".htaccess"
       - "conf.inc.php"
